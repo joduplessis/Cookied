@@ -1,0 +1,26 @@
+{
+  "name": "cookied",
+  "version": "1.0.0",
+  "description": "Easy cookie management.",
+  "main": "build/cookied.js",
+  "types": "./build/cookied.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "dev": "npm run watch | npm run serve"
+  },
+  "repository": "https://github.com/joduplessis/Cookied",
+  "author": "Jo du Plessis",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "rollup-plugin-buble": "^0.15.0",
+    "rollup-plugin-commonjs": "^8.2.1",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-replace": "^2.0.0",
+    "rollup-plugin-typescript": "^0.8.1",
+    "rollup-plugin-uglify": "^2.0.1",
+    "rollup-watch": "^4.3.1",
+    "typescript": "^2.5.2"
+  }
+}
