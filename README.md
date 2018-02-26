@@ -11,7 +11,7 @@ Install the package via GitHub with `npm install https://github.com/joduplessis/
 
 This example assumes ES6 usage.
 ```
-import { Cookied } from './Cookied';
+import { Cookied } from 'cookied';
 
 // Instantiate the class
 const cookied = new Cookied();
